@@ -24,13 +24,14 @@ namespace CreditCardAPI.Controller
 
         public IActionResult CreditCardValidate([FromBody] CreditCardReq req)
         {
-
+            _logger.LogInformation("Entered the CreditCardValidate Controller");
 
             if (req == null || string.IsNullOrWhiteSpace(req.CardNumber))
                 return BadRequest(new { error = "Credit card number is required." });
 
             try
             {
+                _logger.LogInformation("Entered the try block for CreditCardValidate Controller");
 
                 CreditCardResp resp = _luhnService.IsValid(req.CardNumber);
 
