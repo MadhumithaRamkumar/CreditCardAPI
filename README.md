@@ -4,7 +4,7 @@ It accepts a credit card number as input (in string format) and returns a respon
 **FrameWorks**
 1.  .Net 9 Framework - C# .NET Framework
 
-**   SETUP INSTRUCTION**
+**SETUP INSTRUCTION**
 
 1.  Open Visual Studio.
 2.  Click on "Clone on repository".
