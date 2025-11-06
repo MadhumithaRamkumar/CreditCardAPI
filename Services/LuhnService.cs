@@ -23,7 +23,7 @@ namespace CreditCardAPI.Services
             if (!cleanedCardNumber.All(char.IsDigit))
             {
                 resp.IsValid = false;
-                resp.RespMessage = "Card Number contains characters";
+                resp.RespMessage = "Credit Card Number cannot have characters";
                 return resp;
             }
 

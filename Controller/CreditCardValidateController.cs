@@ -27,7 +27,7 @@ namespace CreditCardAPI.Controller
             _logger.LogInformation("Entered the CreditCardValidate Controller");
 
             if (req == null || string.IsNullOrWhiteSpace(req.CardNumber))
-                return BadRequest(new { error = "Credit card number is required." });
+                return BadRequest(new { error = "Credit card number is Empty" });
 
             try
             {
