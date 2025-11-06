@@ -1,6 +1,6 @@
 **Overview**
 
-This project implements an API for credit card number validation using the Luhn algorithm. It accepts a credit card number as input (in string format) and returns a response indicating the validation status and related details of the card number.You can test the API directly using the Swagger UI once the application is running.
+This project implements an API for credit card number validation using the Luhn algorithm. It accepts a credit card number as input (in string format) and returns a response indicating the validation status and related details of the card number. Continuous log files are generated daily, allowing application activities to be tracked for easier troubleshooting and debugging.You can test the API directly using the Swagger UI once the application is running.
 
 **FrameWorks**
 1.  .Net 9 Framework - C# .NET Framework
